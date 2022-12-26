@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
 		ArrayList<ArrayList<Integer>> arr=new ArrayList<ArrayList<Integer>>();
 		Scanner scan =new Scanner(System.in);
 		int n,m;
@@ -16,8 +15,7 @@ public class Main {
 		System.out.println("Enter the number of threads");
 		m=scan.nextInt();
 		
-		for(int i=0;i<n;i++) //generating the array
-		{
+		for(int i=0;i<n;i++) //generating the array {
 			ArrayList<Integer> temp=new ArrayList<Integer>();
 			temp.add(rnd.nextInt(100));
 			arr.add(temp);
